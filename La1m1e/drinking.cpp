@@ -25,6 +25,7 @@ public:
 		else {
 			glass->volume = 0;
 		}
+		isThirsty = false;
 	};
 	void work() {
 		std::this_thread::sleep_for(std::chrono::minutes(60));
