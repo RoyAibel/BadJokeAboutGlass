@@ -10,7 +10,7 @@ public:
    float maxVolume = 100;  
    bool isEmpty() const
    {  
-       return volume == 0;  
+       return volume <= 0;  
    };  
 };
 
