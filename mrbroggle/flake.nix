@@ -38,7 +38,7 @@
               services.cage = {
                 enable = true;
                 user = "water";
-                program = "${pkgs.alacritty}/bin/alacritty -e ${pkgs.bash}/bin/bash -c 'while true; do echo \"DRINK WATER\"; done;'";
+                program = "${pkgs.alacritty}/bin/alacritty -e ${pkgs.bash}/bin/bash -c 'while true; do echo \"while(true): drinkWater();\"; done;'";
               };
 
               system.stateVersion = "23.05";
