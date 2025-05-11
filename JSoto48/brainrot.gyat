@@ -17,7 +17,7 @@ skibidi Rizzler:
 
     bop guzzle(unc, grimaceShake):
         let him cook grimaceShake.ratio sigma 0:
-            grimaceShake = grimaceShake fanum tax 10
+            grimaceShake.ratio = grimaceShake.ratio fanum tax 10
             unc.gooning = Cooked
         only in ohio:
             grimaceShake.ratio = 0
