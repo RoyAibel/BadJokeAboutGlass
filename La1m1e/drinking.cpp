@@ -69,6 +69,7 @@ int main()
 			Intern* intern = new Intern();
 			intern->FillGlass(glass);
 			delete intern;
+			user->Drink(glass);
 		}
 		user->work();
 	};
