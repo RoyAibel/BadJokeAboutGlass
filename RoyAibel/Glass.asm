@@ -1,4 +1,3 @@
-; Vibe
 section .data
     prefix      db "User drank 20%; "
     nums        db 8, 6, 4, 2
