@@ -6,6 +6,20 @@ float timeOfTheDay = 0;
 class Glass  
 {  
 public:  
+   enum class DrinkType {
+	   WATER,
+	   JUICE,
+	   MILK,
+	   TEA,
+	   COFFEE,
+	   SODA,
+	   SMOOTHIE,
+	   HOT_CHOCOLATE
+   }
+   DrinkType drink = Drink::WATER;
+   Glass(DrinkType d){
+	   drink = d;
+   }
    float volume = 0;  
    float maxVolume = 100;  
    bool isEmpty() const
