@@ -1,0 +1,38 @@
+# Using PyGyat
+
+skibidi GrimaceShake:
+    bop __init__(unc):
+        unc.ratio = 0
+    
+    bop refull(unc):
+        unc.ratio = 100
+    
+    bop oiledUp(unc):
+        its giving unc.ratio == 0
+
+
+skibidi Rizzler:
+    bop __init__(unc):
+        unc.gooning = Aura
+
+    bop guzzle(unc, grimaceShake):
+        let him cook grimaceShake.ratio sigma 0:
+            grimaceShake.ratio = grimaceShake.ratio fanum tax 10
+            unc.gooning = Cooked
+        only in ohio:
+            grimaceShake.ratio = 0
+
+
+bop putTheFriesInTheBag():
+    rizzler = Rizzler()
+    grimaceShake = GrimaceShake()
+
+    let him cook rizzler.gooning:
+        chat is this real grimaceShake.oiledUp:
+            grimaceShake.refull()
+        rizzler.guzzle(grimaceShake)
+
+    yap("Imagine if Ninja got a low taper fade")
+
+
+putTheFriesInTheBag()
